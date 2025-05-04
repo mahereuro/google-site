@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO & Backlinks Strategy</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 32px;
+        }
+        
+        .tagline {
+            font-size: 18px;
+            color: #7f8c8d;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            flex: 1;
+            min-width: 300px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .blue-title {
+            color: #2980b9;
+        }
+        
+        .green-title {
+            color: #27ae60;
+        }
+        
+        .purple-title {
+            color: #8e44ad;
+        }
+        
+        .red-title {
+            color: #e74c3c;
+        }
+        
+        .orange-title {
+            color: #f39c12;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+        
+        .blog-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .blog-title {
+            font-size: 28px;
+            color: #2c3e50;
+        }
+        
+        .author-info {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ddd;
+            overflow: hidden;
+            margin-right: 15px;
+        }
+        
+        .author-avatar img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .author-name {
+            margin: 0;
+            font-weight: bold;
+        }
+        
+        .publish-date {
+            margin: 0;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .featured-image {
+            margin-bottom: 25px;
+        }
+        
+        .featured-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .blog-content {
+            line-height: 1.8;
+        }
+        
+        .subheading {
+            color: #2c3e50;
+            margin-top: 25px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        th {
+            border-bottom: 2px solid #ecf0f1;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .cta-section {
+            background: linear-gradient(to right, #3498db, #2980b9);
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .cta-title {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .cta-text {
+            font-size: 18px;
+            margin-bottom: 25px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: white;
+            color: #2980b9;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            border-top: 1px solid #ecf0f1;
+            margin-top: 30px;
+        }
+        
+        .footer-links {
+            margin-top: 20px;
+        }
+        
+        .footer-link {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .copyright {
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column;
+            }
+            
+            .card {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SEO & Backlinks Strategy</h1>
+            <p class="tagline">Professional SEO techniques to improve domain authority and search rankings</p>
+        </header>
+
+        <div class="flex-container">
+            <div class="card">
+                <h2 class="section-title blue-title">SEO Strategy Overview</h2>
+                <ul>
+                    <li><strong>Setup Professional Google Sites:</strong> Create optimized structure with proper navigation</li>
+                    <li><strong>Quality Blog Content:</strong> Develop 800-1000 word articles with targeted keywords</li>
+                    <li><strong>Strategic Backlinks:</strong> Gradual building with diverse anchor text</li>
+                    <li><strong>Boost Indexation:</strong> Utilize Google properties and submission techniques</li>
+                    <li><strong>Track Progress:</strong> Monitor rankings and optimize based on data</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2 class="section-title green-title">Money Robot Backlinks Plan</h2>
+                <ol>
+                    <li><strong>Gradual Building:</strong> Start with 5-10 backlinks per day, increase gradually</li>
+                    <li><strong>Diverse Anchor Text:</strong> Mix branded, exact match, partial match, and generic anchors</li>
+                    <li><strong>Tiered Structure:</strong> Implement tier 2 and tier 3 link building</li>
+                    <li><strong>Varied Link Velocity:</strong> Distribute link building over time for natural growth</li>
+                    <li><strong>Quality Sources:</strong> Focus on relevant, higher authority sites when possible</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="section-title purple-title">Blog Template Example</h2>
+            
+            <div class="blog-container">
+                <h3 class="blog-title">How to Improve Domain Authority with Strategic Backlinks</h3>
+                
+                <div class="author-info">
+                    <div class="author-avatar">
+                        <img src="/api/placeholder/50/50" alt="Author">
+                    </div>
+                    <div>
+                        <p class="author-name">Author Name</p>
+                        <p class="publish-date">Published: May 4, 2025</p>
+                    </div>
+                </div>
+                
+                <div class="featured-image">
+                    <img src="/api/placeholder/800/400" alt="Featured Image">
+                </div>
+                
+                <div class="blog-content">
+                    <p>Domain Authority (DA) is a crucial metric that indicates the strength and credibility of your website in search engines. Developing a strong DA requires strategic planning and consistent execution of SEO techniques.</p>
+                    
+                    <h4 class="subheading">Why Domain Authority Matters</h4>
+                    <p>Higher Domain Authority correlates with better search engine rankings, increased organic traffic, and greater online visibility. When search engines recognize your site as authoritative, they're more likely to display your content to users.</p>
+                    
+                    <h4 class="subheading">How to Build Quality Backlinks</h4>
+                    <p>Creating a diverse backlink profile is essential for improving Domain Authority. Focus on acquiring links from relevant, high-quality websites in your niche. Here are some effective strategies:</p>
+                    
+                    <ul>
+                        <li><strong>Guest Posting:</strong> Contribute valuable content to reputable websites in your industry</li>
+                        <li><strong>Resource Link Building:</strong> Create comprehensive resources that others naturally want to link to</li>
+                        <li><strong>Broken Link Building:</strong> Find broken links on relevant websites and suggest your content as a replacement</li>
+                        <li><strong>Content Promotion:</strong> Share your content with influencers and industry leaders who might reference it</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex-container">
+            <div class="card">
+                <h2 class="section-title red-title">Google Sites Setup Guide</h2>
+                <div style="line-height: 1.8;">
+                    <p><strong>Step 1:</strong> Create a new Google Site with a professional theme</p>
+                    <p><strong>Step 2:</strong> Set up main navigation with key service pages</p>
+                    <p><strong>Step 3:</strong> Create a blog section with organized categories</p>
+                    <p><strong>Step 4:</strong> Implement proper heading structure (H1, H2, H3)</p>
+                    <p><strong>Step 5:</strong> Add this custom HTML to enhance design</p>
+                    <p><strong>Step 6:</strong> Connect Google Search Console for indexing</p>
+                    <p><strong>Step 7:</strong> Set up analytics to track performance</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 class="section-title orange-title">Content Planning Calendar</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Week</th>
+                            <th>Blog Topic</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Week 1</td>
+                            <td>Introduction to SEO Basics</td>
+                            <td>beginner SEO, SEO fundamentals</td>
+                        </tr>
+                        <tr>
+                            <td>Week 2</td>
+                            <td>On-Page SEO Techniques</td>
+                            <td>on-page SEO, meta descriptions</td>
+                        </tr>
+                        <tr>
+                            <td>Week 3</td>
+                            <td>Backlink Building Strategies</td>
+                            <td>quality backlinks, link building</td>
+                        </tr>
+                        <tr>
+                            <td>Week 4</td>
+                            <td>Local SEO Guide</td>
+                            <td>local SEO, Google My Business</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 class="cta-title">Ready to Improve Your SEO Rankings?</h2>
+            <p class="cta-text">Implement this strategy to boost your domain authority and search rankings with strategic content and backlinks.</p>
+            <a href="#" class="cta-button">Get Started Today</a>
+        </div>
+
+        <footer>
+            <p class="copyright">© 2025 SEO Strategy Professional | All Rights Reserved</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Contact Us</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
